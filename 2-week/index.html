@@ -9,9 +9,146 @@
 </head>
 
 <body>
-    <h1>
-        ssss
-    </h1>
+    <!-- 文本 -->
+    <h1>标题</h1>
+    <p>段落</p>
+    <!-- 定义预格式化的文本 -->
+    <pre>var:ss 
+        if{
+            <a href="#">lianjie</a>
+             标签可定义预格式化的文本。
+
+   
+                被包围在  标签 元素中的文本通常会保留空格和换行符。而文本也会呈现为等宽字体。
+        }    
+    </pre>
+
+    <!-- 有序列表 / 无序列表 -->
+    <ul>
+        <li>列表 li
+            <ul>
+                <li>嵌套列表</li>
+                <li>嵌套列表</li>
+                <li>嵌套列表</li>
+            </ul>
+        </li>
+        <li>列表 li
+            <ol>
+                <li>嵌套列表</li>
+                <li>嵌套列表</li>
+                <li>嵌套列表</li>
+            </ol>
+        </li>
+        <li>列表 li</li>
+    </ul>
+
+    <!-- 描述的列表 -->
+    <dl>
+        <dt>html</dt>
+        <dd>HyperText Markup Language</dd>
+        <dt>Css</dt>
+        <dd>Cascading Style Sheets</dd>
+    </dl>
+    <!-- 行内文本 -->
+    <p><abbr title="HyperText Markup Language">HTML</abbr> 是一种<span>用</span>来描述 <del>顶顶顶</del> 网页的<mark>标记语言</mark></p>
+    <p><u>下划线</u> //u</p>
+    <p><ins>插入的内容</ins> //ins</p>
+    <p><strong> 重要的文本 //strong</strong></p>
+    <p> <em>强调的文本 //em</em></p>
+    <p>这是 <big>是<big>是<big>是</big></big>
+        </big> big标签
+    </p>
+    <p>这是<small>是<small>是<small>是</small></small>
+        </small> small 标签
+    </p>
+    <p><mark><code>&lt;div&gt;</code></mark> 标签</p>
+    <p><mark>&lt;div&gt;</mark> 标签</p>
+
+    <!-- 图像文件 -->
+    <div><img src="./assets/仓库管理系统图片_百度百科.jpg" alt="仓库管理系统" width="50%"></div>
+    <hr>
+    <img src="./assets/仓库管理系统图片_百度百科.jpg" alt="仓库管理系统" width="400" height="200">
+
+    <!-- 视频/音频  -->
+    <video poster="./assets/view-from-a-blue-moon-trailer-hd.jpg" controls preload loop muted width="50%">慕思企业文化钢铁训练营41期
+        <source src="./assets/慕思企业文化钢铁训练营41期.mp4" type="video/mp4">
+        <track kind="subtitles" src="./assets/view-from-a-blue-moon-trailer-hd.vtt" srclang="en" label="English">
+        <track kind="subtitles" src="" srclang="zh" label="Chinese">
+    </video>
+
+    <!-- 表格 -->
+    <table>
+        <thead>
+            <tr>
+                <th>course</th>
+                <th>time</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>html</td>
+                <td>1 h</td>
+            </tr>
+            <tr>
+                <td>CSS</td>
+                <td>3 h</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td colspan="2">footed</td>
+            </tr>
+        </tfoot>
+    </table>
+
+    <!-- 表单 -->
+    <form>
+        <label for="username">Username: </label>
+        <input type="text" name="username" id="username" placeholder="username" value="">
+        <input type="button" value="buttoninpu">
+        <button type="submit"><img src="./assets/blue-flower.jpg" alt="flower" height="30px"></button>
+        <button type="button">submit</button>
+        <button type="menu">submit</button>
+        <br>
+
+        <label>
+            <input type="checkbox" name="course" value="html">
+            html
+        </label>
+        <label>
+            <input type="checkbox" name="course" value="css">
+            css
+        </label>
+        <label>
+            <input type="checkbox" name="course" value="js">
+            js
+        </label>
+        <br>
+
+        <label>
+            <input type="radio" name="course" value="html">
+            html
+        </label>
+        <label>
+            <input type="radio" name="course" value="css">
+            css
+        </label>
+        <label>
+            <input type="radio" name="course" value="js">
+            js
+        </label>
+        <br>
+
+        <select name="course" id="">
+            <option value="html">HTML</option>
+            <option value="css" selected>CSS</option>
+            <option value="js">JS</option>
+        </select>
+
+
+
+    </form>
+
 </body>
 
 </html>
