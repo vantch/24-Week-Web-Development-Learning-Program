@@ -1,0 +1,52 @@
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    html {
+        height: 100%;
+        width: 100%;
+    }
+    
+    body {
+        height: 100%;
+        width: 100%;
+        background: radial-gradient(50% 50% at 50% 50%, #598A92 0%, rgba(65, 108, 115, 0.26) 100%), linear-gradient(180deg, #41666C 0%, #2A373D 100%);
+    }
+    
+    .layout-wrapper {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    
+    .layout-wrapper div {
+        height: 100%;
+        float: left;
+    }
+    
+    .cow-left {
+        width: 30%;
+        background: left top no-repeat url(./images/zs_bg_left.png), no-repeat left bottom url(./images/yun-left.png);
+        background-size: contain;
+    }
+    
+    .cow-center {
+        width: 40%;
+        background: center top no-repeat url(./images/img_2020.png), center bottom no-repeat url(./images/img_happynew.png);
+        background-size: contain;
+    }
+    
+    .cow-right {
+        width: 30%;
+        background: right top no-repeat url(./images/zs_bg_right.png), no-repeat right bottom url(./images/yun-right.png);
+        background-size: contain;
+    }
+    
+    .footer {
+        position: absolute;
+        width: 100%;
+        height: 64px;
+        bottom: 0;
+        background: no-repeat right bottom url(./images/href.png), left bottom url(./images/logo.png) no-repeat, center bottom url(./images/img_bottom.png) no-repeat;
+    }
