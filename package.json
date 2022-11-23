@@ -19,6 +19,6 @@
     },
     "homepage": "https://github.com/vantch/24-Week-Web-Development-Learning-Program#readme",
     "devDependencies": {
-        "browser-sync": "^2.26.7"
+        "browser-sync": "^2.27.10"
     }
 }
